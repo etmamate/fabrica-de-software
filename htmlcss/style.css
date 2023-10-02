@@ -1,0 +1,13 @@
+body{
+    padding: 0;
+
+    margin: 0;
+
+    background-color: aliceblue;
+}
+
+#login{
+    display: flex;
+
+    align-items: center
+}
