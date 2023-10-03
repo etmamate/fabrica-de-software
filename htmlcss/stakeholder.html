@@ -5,20 +5,30 @@
     <meta charset="UTF-8" />
     <title>Login Screen</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 
 <body>
+    <style>
+        body {
+            background-image: url('background.png');
+        }
+    </style>
     <div class="wrapper">
         <form action="">
-            <h1>Login</h1>
+            <h1>LOGIN</h1>
             <div class="input-box">
                 <input type="text" placeholder="Usuario" required>
+                <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
-                <input type="text" placeholder="Senha" required>
+                <input type="password" 
+                placeholder="Senha" required>
+                <i class='bx bxs-lock-alt' ></i>
             </div>
 
-            <div class="remeber-forgot">
+            <div class="remember-forgot">
                 <label><input type="checkbox"> Lembrar
                 </label>
                 <a href="#">Problema no Acesso?</a>

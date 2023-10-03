@@ -1,78 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 body {
-    padding: 0;
-
-    margin: 0;
-
-    background-color: #030163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
 }
 
-#h2 {
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
+.wrapper {
+    width: 420px;
+    background-color: rgba(255, 255, 255, 0.521);
+    color: white;
+    border: none;
+    border: 2px solid rgb(255, 2, 2);
+    border-radius: 15px;
 }
 
-#login {
-    display: flex;
+.wrapper h1{
+    margin-bottom:-30px;
+    font-size: 45px;
+    text-align: center;
+    color: #2C4291;
+}
 
-    align-items: center;
+.wrapper .input-box{
+    position: relative;
+    width: 85%;
+    height: 40px;
+    margin: 30px 30px;
+}
 
-    justify-content: center;
-
-    height: 100vh;
-
-    font-family: Arial, Helvetica, sans-serif;
-
+.input-box input{
+    width: 94%;
+    height: 100%;
+    background-color: rgba(255, 255, 255);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 2, 2);
+    border-radius: 40px;
     color: black;
 }
-
-.card {
-    background-color: gray;
-
-    padding: 40px;
-
-    border-radius: 2px;
-
-    width: 280px;
+.input-box input ::placeholder{
+    color: white;
 }
-
-.card-header::after {
-
-    content: "";
-
-    width: 70px;
-
-    height: 1px;
-
-    background-color: #fff;
-
-    display: block;
-
-    margin-top: -17px;
-
-    margin-left: -5px;
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top:26%;
+    transform: translate(-50%);
+    font-size: 18px;
+    color: #2C4291;
 }
-
-.card-content label {
-
-    color: fff;
-
-    flex-direction: column;
-
-    padding: 10px 0;
-}
-
-.card-content-area {
-
-    display: flex;
-
-    flex-direction: column;
-
-    padding: 4px 0;
-
-    margin-bottom: 5px;
-
-
+.remember-forgot{
+    color: black;
 }
